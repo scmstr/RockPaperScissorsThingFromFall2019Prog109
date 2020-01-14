@@ -1,0 +1,72 @@
+
+#main{
+    display:none;
+    height: 390px;
+    max-width: 600px;
+    background-color: #FF99FF;
+    border: solid 20px rgba(0,0,0,.2);
+    border-radius: 10px 10px 10px 10px;
+    margin: auto;
+    
+
+}
+#scores{
+    float: inherit;
+    background-color: #99FF99;
+    border: solid 20px rgba(255,255,255,0);
+    border-radius: 20px 20px 20px 20px;
+
+}
+#pics{
+    background-position: inherit;
+    background-color: #99FF99;
+    border: solid 20px rgba(0,0,0,.2);
+    border-radius: 20px 20px 20px 20px;
+    text-align:center
+    
+
+}
+#menu{
+    display:block;
+    height: 210px;
+    max-width: 600px;
+    width: 80%;
+    background: #999999;
+    border-radius: 10px 10px 10px 10px;
+    margin: auto;
+    padding: 40px;
+
+}
+#results{
+    display:none;
+    background: gold;
+    margin: auto;
+    max-width: 555px;
+    text-align: center;
+    padding: 200px;
+    position: relative;
+}
+#btnReturnToGame{
+    margin-top: 100px;
+}
+#resultsTitle{
+    font-size: xx-large;
+    height: 100px;
+}
+#playerChoice, #computerChoice{
+    font-size: x-large;
+    margin-top: 100px;
+
+}
+#winOrLose{
+    font-size: xx-large;
+    font-style: oblique;
+}
+#score{
+    display:none;
+}
+.center{
+    margin: auto;
+    text-align: center;
+}
+

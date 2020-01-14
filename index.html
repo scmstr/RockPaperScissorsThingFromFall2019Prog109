@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en-gb-oxendict">                                                        <!--apparently, this is the proper english lang attr-->
+
+    <head>
+        <meta charset="utf-8">
+		<title>McElroy, James - Fall2019 PROG 109 - FINAL PROJECT:RockPaperScissors</title>
+		<link rel="stylesheet" href="css/external.css">                             <!--location of the external csss file-->
+    </head>
+
+    <body>
+
+                                                                                    <!--main menu screen-->
+        <div class="center" id="menu">
+            <h1>Rock Paper Scissors Game</h1>
+            Click one of the choices.<br>
+            The computer will choose at the same time.<br>
+            The outcome will be shown after. <br>
+            <br>
+            Play as many times as you like!
+            <br><br>
+            <input type="button" value="Click HERE to start!" id="btn">
+        </div>
+
+                                                                                    <!--this is the scoreboard of sorts-->
+        <div id="main" class="center">
+            <div id="score" class="center">
+                <div id="scores">
+                    <h2><u>Round Number:&nbsp;<span id="roundCounter">1</span></u></h2>
+                    Your Score: <span id="playerScore">0</span>  <br> 
+                    Computer Score: <span id="computerScore">0</span> <br> <br>
+                </div>
+            </div>
+
+            <br>
+
+            <div id="pics">
+                <section><h3>Pick one:</h3></section>                                                                   <!--this is where the picutres are, which are clickable and hoverable-->
+                <img id="dog" src="images/dog.jpg" width="115" height="90" alt="dog picture">  
+                <img id="cat" src="images/cat.jpg" width="155" height="90" alt="cat picture">
+                <img id="potato" src="images/potato.jpeg" width="145" height="90" alt="potato picture">
+                <br> <br>
+            </div>
+            <br>
+        </div>
+
+                                                                                    <!--the separate results page-->
+
+
+        <table id="results" class="center">
+            <tr>
+                <th></th>
+                <th id=resultsTitle>
+                    Results:
+                </th>
+                <th></th>
+            </tr>
+            <tr>
+                <td>
+                    <div id="playerChoice" >
+                        You Chose:
+                        
+                    </div>
+                </td>
+                <td>
+                    <div id="winOrLose">
+                        <h1>results here!!!</h1>
+                    </div>
+                </td>
+                <td>
+                    <div id="computerChoice" >
+                        The Computer Chose:
+                        
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <img src="images/cat.jpg" id=playerChoiceImg width="215" height="150" alt="what the player chose">
+                </td>
+                <td>
+                    <input type="button" value="Try Again!" id="btnReturnToGame">
+                </td>
+                <td>
+                    <img src="images/cat.jpg" id=computerChoiceImg width="215" height="150" alt="what the computer chose">
+                </td>
+            </tr>
+        </table> 
+        <br> 
+        <br>
+            
+            
+
+                                                                                    <!--location of external javascript file-->
+        <script src="js/external.js"></script>
+        
+    </body>
+</html>
